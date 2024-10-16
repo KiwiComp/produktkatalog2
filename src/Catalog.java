@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Catalog {
-    ArrayList<String> products = new ArrayList<String>;
+    ArrayList<Product> products = new ArrayList<>();
 
     public void addProduct(Product name) {
         products.add(name);
